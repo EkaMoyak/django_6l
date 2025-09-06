@@ -5,7 +5,7 @@ from telebot import types
 
 # Конфигурация
 API_URL = 'http://127.0.0.1:8000/api/'
-BOT_TOKEN = '8007601498:AAEFq1vQaGtpOdq27tLnYyjDcD_-hpySvzg'
+BOT_TOKEN = 'ваш токен'
 
 # Создаем экземпляр бота
 bot = telebot.TeleBot(BOT_TOKEN)
