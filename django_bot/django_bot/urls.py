@@ -5,3 +5,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('bot.urls')),  # Подключаем URLs из приложения bot
 ]
+

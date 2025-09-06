@@ -60,7 +60,6 @@ def register_user(request):
             'error': str(e)
         }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-
 @api_view(['GET'])
 def user_list(request):
     """
